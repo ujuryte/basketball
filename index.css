@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("court.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h3 {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;   
+}
+
+button {
+    background: white;
+    color: black;
+    width: 40px;
+    height: 30px;
+    font-size: 15px;
+    border-color: white;
+    border-width: 1px;
+    font-weight: 800;
+}
+
+
+
