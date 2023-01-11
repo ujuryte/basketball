@@ -7,7 +7,7 @@ body {
 }
 
 h2 {
-    background: #0a0001;
+    background-color: #0a0001;
     font-size: 90px;
     color: #F94F6D;
     width: 120px;
@@ -26,7 +26,7 @@ h3 {
     font-weight: 800;   
 }
 
-button {
+.scoreButton button {
     background: white;
     color: black;
     width: 40px;
@@ -35,6 +35,18 @@ button {
     border-color: white;
     border-width: 1px;
     font-weight: 800;
+}
+
+button {
+    background: black;
+    color: #F94F6D;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-color: white;
+    border-width: 1px;
+    font-weight: 800;
+    
 }
 
 

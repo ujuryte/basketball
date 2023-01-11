@@ -5,8 +5,8 @@
     <body>
         <div class="container">
             <div class="column">
-                <h3>HOME</h3>
-                <h2 id="home-score">0</h2>
+                <h3 style="border: 1px solid black;background:white">HOME</h3>
+                <h2 style="border:1px solid white" id="home-score">0</h2>
                     <div class="scoreButton">
                     <button id="home-score-btn-1" onclick="plusOne()">+1</button>
                     <button id="home-score-btn-2" onclick="plusTwo()">+2</button>
@@ -14,8 +14,8 @@
                     </div>
             </div>
             <div>
-                <h3>GUEST</h3>
-                <h2 id="guest-score">0</h2>
+                <h3 style="border: 1px solid black;background:white">GUEST</h3>
+                <h2 style="border:1px solid white" id="guest-score">0</h2>
                     <div class="scoreButton">
                     <button id="guest-score-btn-1" onclick="plusOneG()">+1</button>
                     <button id="guest-score-btn-2" onclick="plusTwoG()">+2</button>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div>
-            <button id="again" onclick="playAgain">Play Again</button>
+            <button id="again" onclick="playAgain()">Play Again</button>
         </div>
         <script src="index.js"></script>
     </body>
